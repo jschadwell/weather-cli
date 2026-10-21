@@ -1,10 +1,15 @@
 {
+  "type": "module",
   "name": "weather-cli",
   "version": "1.0.0",
   "description": "Node/Typescript CLI to retrieve weather information from the Internet using Effect",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "typecheck": "tsc --noEmit",
+    "dev": "npm run build && node dist/main.js",
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "repository": {
     "type": "git",
