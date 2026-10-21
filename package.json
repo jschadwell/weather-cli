@@ -23,7 +23,8 @@
   },
   "homepage": "https://github.com/jschadwell/weather-cli#readme",
   "dependencies": {
-    "effect": "^4.0.5"
+    "effect": "^4.0.5",
+    "openmeteo": "^1.2.3"
   },
   "devDependencies": {
     "@types/node": "^26.6.5",
